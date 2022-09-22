@@ -1,0 +1,13 @@
+## Interface: 30400
+## Title: Musician Extended
+## Author: LenweSaralonde
+## Version: 0.1.0
+## RequiredDeps: Musician
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Notes: Additional instrument pack for Musician
+
+constants\MusicianExtended.Instruments.lua
+constants\MusicianExtended.MidiMapping.lua
+
+locale\locale.xml

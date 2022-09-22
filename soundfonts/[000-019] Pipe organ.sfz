@@ -1,0 +1,890 @@
+/*
+// **********************************************************************
+// Pipe organ
+// Soundfont from Musician, the music add-on for World of Warcraft
+// https://musician.lenwe.io
+// MIDI program: 19
+// Samples from Leeds Town Hall Organ
+// **********************************************************************
+*/
+
+<global>
+global_label=Musician instruments
+
+<group>
+group_label=19. Pipe organ
+amp_velcurve_1=1 // All notes play max velocity
+
+<region>
+	region_label=C0
+	key=c0
+	sample=../instruments/pipe-organ/C0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=434453
+	loop_end=882389
+
+<region>
+	region_label=C#0
+	key=c#0
+	sample=../instruments/pipe-organ/C#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432235
+	loop_end=865081
+
+<region>
+	region_label=D0
+	key=d0
+	sample=../instruments/pipe-organ/D0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=428897
+	loop_end=867448
+
+<region>
+	region_label=D#0
+	key=d#0
+	sample=../instruments/pipe-organ/D#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=434446
+	loop_end=857693
+
+<region>
+	region_label=E0
+	key=e0
+	sample=../instruments/pipe-organ/E0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=428702
+	loop_end=874710
+
+<region>
+	region_label=F0
+	key=f0
+	sample=../instruments/pipe-organ/F0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431030
+	loop_end=845420
+
+<region>
+	region_label=F#0
+	key=f#0
+	sample=../instruments/pipe-organ/F#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431747
+	loop_end=872581
+
+<region>
+	region_label=G0
+	key=g0
+	sample=../instruments/pipe-organ/G0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431025
+	loop_end=870593
+
+<region>
+	region_label=G#0
+	key=g#0
+	sample=../instruments/pipe-organ/G#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=429025
+	loop_end=851314
+
+<region>
+	region_label=A0
+	key=a0
+	sample=../instruments/pipe-organ/A0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432873
+	loop_end=878412
+
+<region>
+	region_label=Bb0
+	key=a#0
+	sample=../instruments/pipe-organ/Bb0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=434937
+	loop_end=875900
+
+<region>
+	region_label=B0
+	key=b0
+	sample=../instruments/pipe-organ/B0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=429186
+	loop_end=876790
+
+<region>
+	region_label=C1
+	key=c1
+	sample=../instruments/pipe-organ/C1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=434453
+	loop_end=857729
+
+<region>
+	region_label=C#1
+	key=c#1
+	sample=../instruments/pipe-organ/C#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432235
+	loop_end=871320
+
+<region>
+	region_label=D1
+	key=d1
+	sample=../instruments/pipe-organ/D1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=434128
+	loop_end=869481
+
+<region>
+	region_label=D#1
+	key=d#1
+	sample=../instruments/pipe-organ/D#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=434446
+	loop_end=859547
+
+<region>
+	region_label=E1
+	key=e1
+	sample=../instruments/pipe-organ/E1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=433362
+	loop_end=862484
+
+<region>
+	region_label=F1
+	key=f1
+	sample=../instruments/pipe-organ/F1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431030
+	loop_end=870127
+
+<region>
+	region_label=F#1
+	key=f#1
+	sample=../instruments/pipe-organ/F#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431747
+	loop_end=862769
+
+<region>
+	region_label=G1
+	key=g1
+	sample=../instruments/pipe-organ/G1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431025
+	loop_end=861341
+
+<region>
+	region_label=G#1
+	key=g#1
+	sample=../instruments/pipe-organ/G#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432723
+	loop_end=868348
+
+<region>
+	region_label=A1
+	key=a1
+	sample=../instruments/pipe-organ/A1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432873
+	loop_end=871848
+
+<region>
+	region_label=Bb1
+	key=a#1
+	sample=../instruments/pipe-organ/Bb1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431642
+	loop_end=859053
+
+<region>
+	region_label=B1
+	key=b1
+	sample=../instruments/pipe-organ/B1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432296
+	loop_end=861727
+
+<region>
+	region_label=C2
+	key=c2
+	sample=../instruments/pipe-organ/C2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431517
+	loop_end=857698
+
+<region>
+	region_label=C#2
+	key=c#2
+	sample=../instruments/pipe-organ/C#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432235
+	loop_end=864012
+
+<region>
+	region_label=D2
+	key=d2
+	sample=../instruments/pipe-organ/D2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431512
+	loop_end=865480
+
+<region>
+	region_label=D#2
+	key=d#2
+	sample=../instruments/pipe-organ/D#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431978
+	loop_end=866501
+
+<region>
+	region_label=E2
+	key=e2
+	sample=../instruments/pipe-organ/E2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431032
+	loop_end=866735
+
+<region>
+	region_label=F2
+	key=f2
+	sample=../instruments/pipe-organ/F2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431030
+	loop_end=865502
+
+<region>
+	region_label=F#2
+	key=f#2
+	sample=../instruments/pipe-organ/F#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431747
+	loop_end=861283
+
+<region>
+	region_label=G2
+	key=g2
+	sample=../instruments/pipe-organ/G2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431025
+	loop_end=862965
+
+<region>
+	region_label=G#2
+	key=g#2
+	sample=../instruments/pipe-organ/G#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432723
+	loop_end=862236
+
+<region>
+	region_label=A2
+	key=a2
+	sample=../instruments/pipe-organ/A2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432873
+	loop_end=861244
+
+<region>
+	region_label=Bb2
+	key=a#2
+	sample=../instruments/pipe-organ/Bb2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431642
+	loop_end=861802
+
+<region>
+	region_label=B2
+	key=b2
+	sample=../instruments/pipe-organ/B2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432296
+	loop_end=864652
+
+<region>
+	region_label=C3
+	key=c3
+	sample=../instruments/pipe-organ/C3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431517
+	loop_end=863679
+
+<region>
+	region_label=C#3
+	key=c#3
+	sample=../instruments/pipe-organ/C#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432235
+	loop_end=866261
+
+<region>
+	region_label=D3
+	key=d3
+	sample=../instruments/pipe-organ/D3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431512
+	loop_end=864577
+
+<region>
+	region_label=D#3
+	key=d#3
+	sample=../instruments/pipe-organ/D#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431978
+	loop_end=862623
+
+<region>
+	region_label=E3
+	key=e3
+	sample=../instruments/pipe-organ/E3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432197
+	loop_end=864754
+
+<region>
+	region_label=F3
+	key=f3
+	sample=../instruments/pipe-organ/F3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432130
+	loop_end=864377
+
+<region>
+	region_label=F#3
+	key=f#3
+	sample=../instruments/pipe-organ/F#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431747
+	loop_end=863561
+
+<region>
+	region_label=G3
+	key=g3
+	sample=../instruments/pipe-organ/G3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432005
+	loop_end=863230
+
+<region>
+	region_label=G#3
+	key=g#3
+	sample=../instruments/pipe-organ/G#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431799
+	loop_end=864767
+
+<region>
+	region_label=A3
+	key=a3
+	sample=../instruments/pipe-organ/A3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432000
+	loop_end=863904
+
+<region>
+	region_label=Bb3
+	key=a#3
+	sample=../instruments/pipe-organ/Bb3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431642
+	loop_end=865025
+
+<region>
+	region_label=B3
+	key=b3
+	sample=../instruments/pipe-organ/B3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432296
+	loop_end=862365
+
+<region>
+	region_label=C4
+	key=c4
+	sample=../instruments/pipe-organ/C4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432251
+	loop_end=863206
+
+<region>
+	region_label=C#4
+	key=c#4
+	sample=../instruments/pipe-organ/C#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432235
+	loop_end=864926
+
+<region>
+	region_label=D4
+	key=d4
+	sample=../instruments/pipe-organ/D4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432166
+	loop_end=863481
+
+<region>
+	region_label=D#4
+	key=d#4
+	sample=../instruments/pipe-organ/D#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431978
+	loop_end=865061
+
+<region>
+	region_label=E4
+	key=e4
+	sample=../instruments/pipe-organ/E4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432197
+	loop_end=863212
+
+<region>
+	region_label=F4
+	key=f4
+	sample=../instruments/pipe-organ/F4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432130
+	loop_end=863904
+
+<region>
+	region_label=F#4
+	key=f#4
+	sample=../instruments/pipe-organ/F#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431747
+	loop_end=864313
+
+<region>
+	region_label=G4
+	key=g4
+	sample=../instruments/pipe-organ/G4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432005
+	loop_end=863239
+
+<region>
+	region_label=G#4
+	key=g#4
+	sample=../instruments/pipe-organ/G#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431799
+	loop_end=864840
+
+<region>
+	region_label=A4
+	key=a4
+	sample=../instruments/pipe-organ/A4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432000
+	loop_end=863751
+
+<region>
+	region_label=Bb4
+	key=a#4
+	sample=../instruments/pipe-organ/Bb4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432054
+	loop_end=864367
+
+<region>
+	region_label=B4
+	key=b4
+	sample=../instruments/pipe-organ/B4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431908
+	loop_end=863884
+
+<region>
+	region_label=C5
+	key=c5
+	sample=../instruments/pipe-organ/C5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431884
+	loop_end=864584
+
+<region>
+	region_label=C#5
+	key=c#5
+	sample=../instruments/pipe-organ/C#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431889
+	loop_end=863542
+
+<region>
+	region_label=D5
+	key=d5
+	sample=../instruments/pipe-organ/D5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431839
+	loop_end=864301
+
+<region>
+	region_label=D#5
+	key=d#5
+	sample=../instruments/pipe-organ/D#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431978
+	loop_end=863908
+
+<region>
+	region_label=E5
+	key=e5
+	sample=../instruments/pipe-organ/E5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431906
+	loop_end=864174
+
+<region>
+	region_label=F5
+	key=f5
+	sample=../instruments/pipe-organ/F5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432130
+	loop_end=864129
+
+<region>
+	region_label=F#5
+	key=f#5
+	sample=../instruments/pipe-organ/F#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432007
+	loop_end=863696
+
+<region>
+	region_label=G5
+	key=g5
+	sample=../instruments/pipe-organ/G5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432005
+	loop_end=863739
+
+<region>
+	region_label=G#5
+	key=g#5
+	sample=../instruments/pipe-organ/G#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432030
+	loop_end=864491
+
+<region>
+	region_label=A5
+	key=a5
+	sample=../instruments/pipe-organ/A5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432000
+	loop_end=864422
+
+<region>
+	region_label=Bb5
+	key=a#5
+	sample=../instruments/pipe-organ/Bb5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432054
+	loop_end=863753
+
+<region>
+	region_label=B5
+	key=b5
+	sample=../instruments/pipe-organ/B5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431908
+	loop_end=863646
+
+<region>
+	region_label=C6
+	key=c6
+	sample=../instruments/pipe-organ/C6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432068
+	loop_end=864193
+
+<region>
+	region_label=C#6
+	key=c#6
+	sample=../instruments/pipe-organ/C#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432062
+	loop_end=864284
+
+<region>
+	region_label=D6
+	key=d6
+	sample=../instruments/pipe-organ/D6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432003
+	loop_end=864158
+
+<region>
+	region_label=D#6
+	key=d#6
+	sample=../instruments/pipe-organ/D#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431978
+	loop_end=863974
+
+<region>
+	region_label=E6
+	key=e6
+	sample=../instruments/pipe-organ/E6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432051
+	loop_end=863748
+
+<region>
+	region_label=F6
+	key=f6
+	sample=../instruments/pipe-organ/F6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431993
+	loop_end=864091
+
+<region>
+	region_label=F#6
+	key=f#6
+	sample=../instruments/pipe-organ/F#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432007
+	loop_end=863934
+
+<region>
+	region_label=G6
+	key=g6
+	sample=../instruments/pipe-organ/G6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432005
+	loop_end=864155
+
+<region>
+	region_label=G#6
+	key=g#6
+	sample=../instruments/pipe-organ/G#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432030
+	loop_end=863986
+
+<region>
+	region_label=A6
+	key=a6
+	sample=../instruments/pipe-organ/A6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432000
+	loop_end=864217
+
+<region>
+	region_label=Bb6
+	key=a#6
+	sample=../instruments/pipe-organ/Bb6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431951
+	loop_end=863910
+
+<region>
+	region_label=B6
+	key=b6
+	sample=../instruments/pipe-organ/B6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432005
+	loop_end=863829
+
+<region>
+	region_label=C7
+	key=c7
+	sample=../instruments/pipe-organ/C7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431976
+	loop_end=864075
+
+<region>
+	region_label=C#7
+	key=c#7
+	sample=../instruments/pipe-organ/C#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431975
+	loop_end=864174
+
+<region>
+	region_label=D7
+	key=d7
+	sample=../instruments/pipe-organ/D7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432003
+	loop_end=864163
+
+<region>
+	region_label=D#7
+	key=d#7
+	sample=../instruments/pipe-organ/D#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431978
+	loop_end=864144
+
+<region>
+	region_label=E7
+	key=e7
+	sample=../instruments/pipe-organ/E7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431978
+	loop_end=864005
+
+<region>
+	region_label=F7
+	key=f7
+	sample=../instruments/pipe-organ/F7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431993
+	loop_end=863882
+
+<region>
+	region_label=F#7
+	key=f#7
+	sample=../instruments/pipe-organ/F#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432007
+	loop_end=863994
+
+<region>
+	region_label=G7
+	key=g7
+	sample=../instruments/pipe-organ/G7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432005
+	loop_end=864050
+
+<region>
+	region_label=G#7
+	key=g#7
+	sample=../instruments/pipe-organ/G#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=431972
+	loop_end=863991
+
+<region>
+	region_label=A7
+	key=a7
+	sample=../instruments/pipe-organ/A7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432000
+	loop_end=863946
+
+<region>
+	region_label=Bb7
+	key=a#7
+	sample=../instruments/pipe-organ/Bb7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432003
+	loop_end=863984
+
+<region>
+	region_label=B7
+	key=b7
+	sample=../instruments/pipe-organ/B7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432005
+	loop_end=863992
+
+<region>
+	region_label=C8
+	key=c8
+	sample=../instruments/pipe-organ/C8.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=432022
+	loop_end=864077
+
