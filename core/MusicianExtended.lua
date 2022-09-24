@@ -6,18 +6,16 @@ MusicianExtended = LibStub("AceAddon-3.0"):NewAddon("MusicianExtended")
 local MODULE_NAME = "Extended"
 Musician.AddModule(MODULE_NAME)
 
---- Get full version string
--- Version string contains actual addon version and protocol version
--- @return versionAndProtocol (string)
+-- Append MusicianExtended version in the global version string
+--
 local hookedMusicianRegistryGetVersionString = Musician.Registry.GetVersionString
 function Musician.Registry.GetVersionString()
-	return hookedMusicianRegistryGetVersionString() .. "\n" ..
-		"MusicianExtended " .. GetAddOnMetadata("MusicianExtended", "Version")
+	return hookedMusicianRegistryGetVersionString() .. " " ..
+		"MusicianExtended=" .. GetAddOnMetadata("MusicianExtended", "Version")
 end
 
---- Return player tooltip text
--- @param player (string)
--- @return infoText (string)
+-- Add the MusicianExtended version in the player tooltip
+--
 local hookedMusicianRegistryGetPlayerTooltipText = Musician.Registry.GetPlayerTooltipText
 function Musician.Registry.GetPlayerTooltipText(player)
 	local tooltipText = hookedMusicianRegistryGetPlayerTooltipText(player)
@@ -36,9 +34,9 @@ function Musician.Registry.GetPlayerTooltipText(player)
 	end
 
 	-- Return tooltip text with Extended version, if found
-	local versionRows = { string.split('\n', versionString) }
+	local versionRows = { string.split(' ', versionString) }
 	for _, row in pairs(versionRows) do
-		local pluginName, pluginVersion = string.split(' ', row)
+		local pluginName, pluginVersion = string.split('=', row)
 		if pluginName == "MusicianExtended" then
 			tooltipText = string.gsub(tooltipText, "Musician", "Musician: Extended")
 			return tooltipText .. " x " .. pluginVersion
