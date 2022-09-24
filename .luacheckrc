@@ -21,6 +21,7 @@ globals = {
 
 read_globals = {
 	-- Libraries
+	"LibStub",
 
 	-- 3rd party add-ons
 };
@@ -36,7 +37,14 @@ stds.wow = {
 	read_globals = {
 		-- Lua function aliases and extensions
 
+		string = {
+			fields = {
+				"split",
+			},
+		},
+
 		-- Global Functions
+		"GetAddOnMetadata",
 
 		-- Global Mixins and UI Objects
 
