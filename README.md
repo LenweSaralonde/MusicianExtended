@@ -1,5 +1,5 @@
-Musician Extended
-=================
+Musician: Extended
+==================
 This plugin adds more instruments to [Musician](https://github.com/LenweSaralonde/Musician):
 
 * Pipe organ (*Leeds Town Hall Organ*)
@@ -14,4 +14,4 @@ MIDI mapping
 ------------
 The instruments are mapped to the following MIDI programs:
 
-19. Pipe organ
+* **19.** Pipe organ
