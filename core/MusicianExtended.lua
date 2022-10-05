@@ -38,6 +38,8 @@ function Musician.Registry.GetPlayerTooltipText(player)
 	for _, row in pairs(versionRows) do
 		local pluginName, pluginVersion = string.split('=', row)
 		if pluginName == "MusicianExtended" then
+			-- Only keep version-related characters to avoid escape sequences injection
+			pluginVersion = string.gsub(pluginVersion, "[^0-9a-zA-Z%.%-%_]+", "")
 			tooltipText = string.gsub(tooltipText, "Musician", "Musician: Extended")
 			return tooltipText .. " x " .. pluginVersion
 		end
