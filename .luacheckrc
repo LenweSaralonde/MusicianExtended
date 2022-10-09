@@ -44,8 +44,16 @@ stds.wow = {
 
 		-- Global Functions
 		"GetAddOnMetadata",
+		"hooksecurefunc",
+		"PlaySoundFile",
+		"StopSound",
 
 		-- Global Mixins and UI Objects
+		C_Timer = {
+			fields = {
+				"After"
+			}
+		},
 
 		-- Global Constants
 	},
