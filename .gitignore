@@ -2,3 +2,6 @@
 .buildpath
 .project
 .DS_Store
+Musician.Instruments.lua
+Musician.Midi.lua
+Musician.MidiMapping.lua
