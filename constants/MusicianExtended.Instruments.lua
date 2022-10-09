@@ -16,3 +16,24 @@ if Musician.INSTRUMENTS["pipe-organ"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "piano" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "pipe-organ")
 end
+
+if Musician.INSTRUMENTS["nyckelharpa"] == nil then
+	Musician.INSTRUMENTS["nyckelharpa"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\nyckelharpa",
+		decay = 150,
+		isPercussion = false,
+		isPlucked = false,
+		midi = 41, -- Viola
+		loop = { 4, 5 },
+		crossfade = 150,
+		color = { 1.00 / 1.25, 0.49 / 1.25, 0.04 / 1.25 },
+		release = "Interface\\AddOns\\MusicianExtended\\instruments\\nyckelharpa-release",
+		releaseDecay = 1500,
+		source = "ERA II Medieval Legends"
+	}
+
+	-- Insert the nyckelharpa after the fiddle
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "fiddle" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "nyckelharpa")
+end
