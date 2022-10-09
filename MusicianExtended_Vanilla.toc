@@ -1,7 +1,7 @@
 ## Interface: 11403
 ## Title: Musician: Extended
 ## Author: LenweSaralonde
-## Version: 0.1.2-alpha
+## Version: 0.2.0-alpha
 ## RequiredDeps: Musician
 ## DefaultState: Enabled
 ## LoadOnDemand: 0

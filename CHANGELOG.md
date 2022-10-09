@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v0.2.0
+------
+* Added Nyckelharpa.
+* Fine-tuned pipe organ.
+
 v0.1.2
 ------
 * Re-encoded pipe organ samples into proper 44.1 KHz.
