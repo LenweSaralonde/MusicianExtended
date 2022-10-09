@@ -21,8 +21,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=434453
-	loop_end=881356
+	loop_start=99788
+	loop_end=202613
 
 <region>
 	region_label=C#0
@@ -30,8 +30,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432235
-	loop_end=865081
+	loop_start=99279
+	loop_end=198870
 
 <region>
 	region_label=D0
@@ -39,8 +39,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=428897
-	loop_end=867448
+	loop_start=98512
+	loop_end=199415
 
 <region>
 	region_label=D#0
@@ -48,8 +48,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=434446
-	loop_end=857693
+	loop_start=99787
+	loop_end=197171
 
 <region>
 	region_label=E0
@@ -57,8 +57,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=428702
-	loop_end=874710
+	loop_start=98467
+	loop_end=201087
 
 <region>
 	region_label=F0
@@ -66,8 +66,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431030
-	loop_end=845420
+	loop_start=99002
+	loop_end=194347
 
 <region>
 	region_label=F#0
@@ -75,8 +75,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431747
-	loop_end=872581
+	loop_start=99167
+	loop_end=200596
 
 <region>
 	region_label=G0
@@ -84,8 +84,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431025
-	loop_end=870593
+	loop_start=99001
+	loop_end=200137
 
 <region>
 	region_label=G#0
@@ -93,8 +93,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=429025
-	loop_end=851314
+	loop_start=98542
+	loop_end=195703
 
 <region>
 	region_label=A0
@@ -102,8 +102,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432873
-	loop_end=878412
+	loop_start=99425
+	loop_end=201934
 
 <region>
 	region_label=Bb0
@@ -111,8 +111,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=434937
-	loop_end=875900
+	loop_start=99900
+	loop_end=199833
 
 <region>
 	region_label=B0
@@ -120,8 +120,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B0.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=429186
-	loop_end=876790
+	loop_start=98579
+	loop_end=200136
 
 <region>
 	region_label=C1
@@ -129,8 +129,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=434453
-	loop_end=857729
+	loop_start=99788
+	loop_end=200059
 
 <region>
 	region_label=C#1
@@ -138,8 +138,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432235
-	loop_end=871320
+	loop_start=99279
+	loop_end=200306
 
 <region>
 	region_label=D1
@@ -147,8 +147,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=434128
-	loop_end=869481
+	loop_start=99714
+	loop_end=197481
 
 <region>
 	region_label=D#1
@@ -156,8 +156,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=434446
-	loop_end=859547
+	loop_start=99787
+	loop_end=197598
 
 <region>
 	region_label=E1
@@ -165,8 +165,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=433362
-	loop_end=862484
+	loop_start=99538
+	loop_end=198272
 
 <region>
 	region_label=F1
@@ -174,8 +174,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431030
-	loop_end=870127
+	loop_start=99002
+	loop_end=195987
 
 <region>
 	region_label=F#1
@@ -183,8 +183,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431747
-	loop_end=862769
+	loop_start=99167
+	loop_end=196435
 
 <region>
 	region_label=G1
@@ -192,8 +192,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431025
-	loop_end=861341
+	loop_start=99001
+	loop_end=196201
 
 <region>
 	region_label=G#1
@@ -201,8 +201,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432723
-	loop_end=868348
+	loop_start=99391
+	loop_end=197925
 
 <region>
 	region_label=A1
@@ -210,8 +210,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432873
-	loop_end=871848
+	loop_start=99425
+	loop_end=200424
 
 <region>
 	region_label=Bb1
@@ -219,8 +219,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431642
-	loop_end=859053
+	loop_start=99143
+	loop_end=197479
 
 <region>
 	region_label=B1
@@ -228,8 +228,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B1.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432296
-	loop_end=861727
+	loop_start=99293
+	loop_end=198089
 
 <region>
 	region_label=C2
@@ -237,8 +237,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431517
-	loop_end=857698
+	loop_start=99114
+	loop_end=199095
 
 <region>
 	region_label=C#2
@@ -246,8 +246,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432235
-	loop_end=864012
+	loop_start=99279
+	loop_end=197335
 
 <region>
 	region_label=D2
@@ -255,8 +255,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431512
-	loop_end=865480
+	loop_start=99113
+	loop_end=198962
 
 <region>
 	region_label=D#2
@@ -264,8 +264,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431978
-	loop_end=866501
+	loop_start=99220
+	loop_end=199195
 
 <region>
 	region_label=E2
@@ -273,8 +273,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431032
-	loop_end=866735
+	loop_start=99003
+	loop_end=199312
 
 <region>
 	region_label=F2
@@ -282,8 +282,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431030
-	loop_end=865502
+	loop_start=99002
+	loop_end=199360
 
 <region>
 	region_label=F#2
@@ -291,8 +291,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431747
-	loop_end=861283
+	loop_start=99167
+	loop_end=197996
 
 <region>
 	region_label=G2
@@ -300,8 +300,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431025
-	loop_end=862965
+	loop_start=99001
+	loop_end=199283
 
 <region>
 	region_label=G#2
@@ -309,8 +309,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432723
-	loop_end=862236
+	loop_start=99391
+	loop_end=199065
 
 <region>
 	region_label=A2
@@ -318,8 +318,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432873
-	loop_end=861244
+	loop_start=99425
+	loop_end=197985
 
 <region>
 	region_label=Bb2
@@ -327,8 +327,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431642
-	loop_end=861802
+	loop_start=99143
+	loop_end=197725
 
 <region>
 	region_label=B2
@@ -336,8 +336,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B2.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432296
-	loop_end=864652
+	loop_start=99293
+	loop_end=198056
 
 <region>
 	region_label=C3
@@ -345,8 +345,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431517
-	loop_end=863679
+	loop_start=99114
+	loop_end=199008
 
 <region>
 	region_label=C#3
@@ -354,8 +354,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432235
-	loop_end=866261
+	loop_start=99279
+	loop_end=198825
 
 <region>
 	region_label=D3
@@ -363,8 +363,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431512
-	loop_end=864577
+	loop_start=99113
+	loop_end=198635
 
 <region>
 	region_label=D#3
@@ -372,8 +372,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431978
-	loop_end=862623
+	loop_start=99220
+	loop_end=198699
 
 <region>
 	region_label=E3
@@ -381,8 +381,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432197
-	loop_end=864754
+	loop_start=99270
+	loop_end=198687
 
 <region>
 	region_label=F3
@@ -390,8 +390,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432130
-	loop_end=864377
+	loop_start=99255
+	loop_end=198032
 
 <region>
 	region_label=F#3
@@ -399,8 +399,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431747
-	loop_end=863561
+	loop_start=99167
+	loop_end=197929
 
 <region>
 	region_label=G3
@@ -408,8 +408,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432005
-	loop_end=863230
+	loop_start=99226
+	loop_end=198665
 
 <region>
 	region_label=G#3
@@ -417,8 +417,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431799
-	loop_end=864767
+	loop_start=99179
+	loop_end=198625
 
 <region>
 	region_label=A3
@@ -426,8 +426,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432000
-	loop_end=863904
+	loop_start=99225
+	loop_end=198827
 
 <region>
 	region_label=Bb3
@@ -435,8 +435,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431642
-	loop_end=865025
+	loop_start=99143
+	loop_end=198742
 
 <region>
 	region_label=B3
@@ -444,8 +444,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B3.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432296
-	loop_end=862365
+	loop_start=99293
+	loop_end=198130
 
 <region>
 	region_label=C4
@@ -453,8 +453,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432251
-	loop_end=863206
+	loop_start=99283
+	loop_end=198410
 
 <region>
 	region_label=C#4
@@ -462,8 +462,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432235
-	loop_end=864926
+	loop_start=99279
+	loop_end=198196
 
 <region>
 	region_label=D4
@@ -471,8 +471,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432166
-	loop_end=863481
+	loop_start=99263
+	loop_end=198087
 
 <region>
 	region_label=D#4
@@ -480,8 +480,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431978
-	loop_end=865061
+	loop_start=99220
+	loop_end=198467
 
 <region>
 	region_label=E4
@@ -489,8 +489,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432197
-	loop_end=863212
+	loop_start=99270
+	loop_end=198593
 
 <region>
 	region_label=F4
@@ -498,8 +498,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432130
-	loop_end=863904
+	loop_start=99255
+	loop_end=198749
 
 <region>
 	region_label=F#4
@@ -507,8 +507,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431747
-	loop_end=864313
+	loop_start=99167
+	loop_end=198636
 
 <region>
 	region_label=G4
@@ -516,8 +516,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432005
-	loop_end=863239
+	loop_start=99226
+	loop_end=198667
 
 <region>
 	region_label=G#4
@@ -525,8 +525,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431799
-	loop_end=864840
+	loop_start=99179
+	loop_end=198373
 
 <region>
 	region_label=A4
@@ -534,8 +534,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432000
-	loop_end=863751
+	loop_start=99225
+	loop_end=198288
 
 <region>
 	region_label=Bb4
@@ -543,8 +543,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432054
-	loop_end=864367
+	loop_start=99237
+	loop_end=198287
 
 <region>
 	region_label=B4
@@ -552,8 +552,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B4.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431908
-	loop_end=863884
+	loop_start=99204
+	loop_end=198366
 
 <region>
 	region_label=C5
@@ -561,8 +561,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431884
-	loop_end=864584
+	loop_start=99198
+	loop_end=198637
 
 <region>
 	region_label=C#5
@@ -570,8 +570,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431889
-	loop_end=863542
+	loop_start=99199
+	loop_end=198356
 
 <region>
 	region_label=D5
@@ -579,8 +579,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431839
-	loop_end=864301
+	loop_start=99188
+	loop_end=198311
 
 <region>
 	region_label=D#5
@@ -588,8 +588,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431978
-	loop_end=863908
+	loop_start=99220
+	loop_end=198431
 
 <region>
 	region_label=E5
@@ -597,8 +597,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431906
-	loop_end=864174
+	loop_start=99203
+	loop_end=198489
 
 <region>
 	region_label=F5
@@ -606,8 +606,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432130
-	loop_end=864129
+	loop_start=99255
+	loop_end=198355
 
 <region>
 	region_label=F#5
@@ -615,8 +615,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432007
-	loop_end=863696
+	loop_start=99226
+	loop_end=198386
 
 <region>
 	region_label=G5
@@ -624,8 +624,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432005
-	loop_end=863739
+	loop_start=99226
+	loop_end=198528
 
 <region>
 	region_label=G#5
@@ -633,8 +633,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432030
-	loop_end=864491
+	loop_start=99232
+	loop_end=198561
 
 <region>
 	region_label=A5
@@ -642,8 +642,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432000
-	loop_end=864422
+	loop_start=99225
+	loop_end=198446
 
 <region>
 	region_label=Bb5
@@ -651,8 +651,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432054
-	loop_end=863753
+	loop_start=99237
+	loop_end=198478
 
 <region>
 	region_label=B5
@@ -660,8 +660,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B5.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431908
-	loop_end=863646
+	loop_start=99204
+	loop_end=198368
 
 <region>
 	region_label=C6
@@ -669,8 +669,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432068
-	loop_end=864193
+	loop_start=99241
+	loop_end=198491
 
 <region>
 	region_label=C#6
@@ -678,8 +678,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432062
-	loop_end=864284
+	loop_start=99239
+	loop_end=198368
 
 <region>
 	region_label=D6
@@ -687,8 +687,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432003
-	loop_end=864158
+	loop_start=99226
+	loop_end=198428
 
 <region>
 	region_label=D#6
@@ -696,8 +696,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431978
-	loop_end=863974
+	loop_start=99220
+	loop_end=198443
 
 <region>
 	region_label=E6
@@ -705,8 +705,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432051
-	loop_end=863748
+	loop_start=99237
+	loop_end=198477
 
 <region>
 	region_label=F6
@@ -714,8 +714,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431993
-	loop_end=864091
+	loop_start=99223
+	loop_end=198482
 
 <region>
 	region_label=F#6
@@ -723,8 +723,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432007
-	loop_end=863934
+	loop_start=99226
+	loop_end=198432
 
 <region>
 	region_label=G6
@@ -732,8 +732,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432005
-	loop_end=864155
+	loop_start=99226
+	loop_end=198484
 
 <region>
 	region_label=G#6
@@ -741,8 +741,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432030
-	loop_end=863986
+	loop_start=99232
+	loop_end=198411
 
 <region>
 	region_label=A6
@@ -750,8 +750,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432000
-	loop_end=864217
+	loop_start=99225
+	loop_end=198435
 
 <region>
 	region_label=Bb6
@@ -759,8 +759,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431951
-	loop_end=863910
+	loop_start=99214
+	loop_end=198429
 
 <region>
 	region_label=B6
@@ -768,8 +768,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B6.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432005
-	loop_end=863829
+	loop_start=99226
+	loop_end=198495
 
 <region>
 	region_label=C7
@@ -777,8 +777,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431976
-	loop_end=864075
+	loop_start=99220
+	loop_end=198462
 
 <region>
 	region_label=C#7
@@ -786,8 +786,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C#7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431975
-	loop_end=864174
+	loop_start=99219
+	loop_end=198476
 
 <region>
 	region_label=D7
@@ -795,8 +795,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432003
-	loop_end=864163
+	loop_start=99226
+	loop_end=198464
 
 <region>
 	region_label=D#7
@@ -804,8 +804,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/D#7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431978
-	loop_end=864144
+	loop_start=99220
+	loop_end=198452
 
 <region>
 	region_label=E7
@@ -813,8 +813,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/E7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431978
-	loop_end=864005
+	loop_start=99220
+	loop_end=198478
 
 <region>
 	region_label=F7
@@ -822,8 +822,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431993
-	loop_end=863882
+	loop_start=99223
+	loop_end=198469
 
 <region>
 	region_label=F#7
@@ -831,8 +831,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/F#7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432007
-	loop_end=863994
+	loop_start=99226
+	loop_end=198478
 
 <region>
 	region_label=G7
@@ -840,8 +840,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432005
-	loop_end=864050
+	loop_start=99226
+	loop_end=198458
 
 <region>
 	region_label=G#7
@@ -849,8 +849,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/G#7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=431972
-	loop_end=863991
+	loop_start=99219
+	loop_end=198462
 
 <region>
 	region_label=A7
@@ -858,8 +858,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/A7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432000
-	loop_end=863946
+	loop_start=99225
+	loop_end=198473
 
 <region>
 	region_label=Bb7
@@ -867,8 +867,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/Bb7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432003
-	loop_end=863984
+	loop_start=99226
+	loop_end=198463
 
 <region>
 	region_label=B7
@@ -876,8 +876,8 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/B7.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432005
-	loop_end=863992
+	loop_start=99226
+	loop_end=198455
 
 <region>
 	region_label=C8
@@ -885,6 +885,6 @@ amp_velcurve_1=1 // All notes play max velocity
 	sample=../instruments/pipe-organ/C8.ogg
 	ampeg_release=0.6
 	loop_mode=loop_continuous
-	loop_start=432022
-	loop_end=864077
+	loop_start=99230
+	loop_end=198464
 
