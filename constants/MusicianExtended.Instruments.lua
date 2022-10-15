@@ -45,7 +45,7 @@ if Musician.INSTRUMENTS["guzheng"] == nil then
 		isPercussion = false,
 		isPlucked = true,
 		midi = 107, -- Koto
-		color = Musician.COLORS.DarkWhite,
+		color = { 1, 0.85, 0.95 },
 		source = "Nu Guzheng"
 	}
 
