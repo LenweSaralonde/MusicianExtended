@@ -4,6 +4,7 @@ This plugin adds more instruments to [Musician](https://github.com/LenweSaralond
 
 * Pipe organ (*Leeds Town Hall Organ*)
 * Nyckelharpa
+* Guzheng
 
 If you have [MusicianList](https://github.com/LenweSaralonde/MusicianList) with previously saved songs before installing this instrument pack, you'll need to manually edit each song to select the instruments from the pack you want to use.
 
@@ -17,3 +18,4 @@ The instruments are mapped to the following MIDI programs:
 
 * **19.** Pipe organ
 * **41.** Nyckelharpa (viola)
+* **107.** Guzheng (koto)

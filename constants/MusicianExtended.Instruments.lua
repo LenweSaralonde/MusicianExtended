@@ -37,3 +37,20 @@ if Musician.INSTRUMENTS["nyckelharpa"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "fiddle" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "nyckelharpa")
 end
+
+if Musician.INSTRUMENTS["guzheng"] == nil then
+	Musician.INSTRUMENTS["guzheng"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\guzheng",
+		decay = 1000,
+		isPercussion = false,
+		isPlucked = true,
+		midi = 107, -- Koto
+		color = Musician.COLORS.DarkWhite,
+		source = "Nu Guzheng"
+	}
+
+	-- Insert the guzheng after the dulcimer
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "dulcimer" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "guzheng")
+end
