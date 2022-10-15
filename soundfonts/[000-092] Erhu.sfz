@@ -1,0 +1,890 @@
+/*
+// **********************************************************************
+// Erhu
+// Soundfont from Musician, the music add-on for World of Warcraft
+// https://musician.lenwe.io
+// MIDI program: 92
+// Samples from Mini ErHu
+// **********************************************************************
+*/
+
+<global>
+global_label=Musician instruments
+
+<group>
+group_label=92. Erhu
+amp_velcurve_1=1 // All notes play max velocity
+
+<region>
+	region_label=C0
+	key=c0
+	sample=../instruments/erhu/C0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110576
+	loop_end=224014
+
+<region>
+	region_label=C#0
+	key=c#0
+	sample=../instruments/erhu/C#0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=109461
+	loop_end=216543
+
+<region>
+	region_label=D0
+	key=d0
+	sample=../instruments/erhu/D0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110526
+	loop_end=223646
+
+<region>
+	region_label=D#0
+	key=d#0
+	sample=../instruments/erhu/D#0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=111126
+	loop_end=222452
+
+<region>
+	region_label=E0
+	key=e0
+	sample=../instruments/erhu/E0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=111311
+	loop_end=218541
+
+<region>
+	region_label=F0
+	key=f0
+	sample=../instruments/erhu/F0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=111125
+	loop_end=222461
+
+<region>
+	region_label=F#0
+	key=f#0
+	sample=../instruments/erhu/F#0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110609
+	loop_end=223345
+
+<region>
+	region_label=G0
+	key=g0
+	sample=../instruments/erhu/G0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=109801
+	loop_end=218003
+
+<region>
+	region_label=G#0
+	key=g#0
+	sample=../instruments/erhu/G#0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110435
+	loop_end=217667
+
+<region>
+	region_label=A0
+	key=a0
+	sample=../instruments/erhu/A0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110651
+	loop_end=221485
+
+<region>
+	region_label=Bb0
+	key=a#0
+	sample=../instruments/erhu/Bb0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110495
+	loop_end=218149
+
+<region>
+	region_label=B0
+	key=b0
+	sample=../instruments/erhu/B0.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110008
+	loop_end=217329
+
+<region>
+	region_label=C1
+	key=c1
+	sample=../instruments/erhu/C1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110576
+	loop_end=221323
+
+<region>
+	region_label=C#1
+	key=c#1
+	sample=../instruments/erhu/C#1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110734
+	loop_end=221624
+
+<region>
+	region_label=D1
+	key=d1
+	sample=../instruments/erhu/D1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110526
+	loop_end=221190
+
+<region>
+	region_label=D#1
+	key=d#1
+	sample=../instruments/erhu/D#1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=109992
+	loop_end=217835
+
+<region>
+	region_label=E1
+	key=e1
+	sample=../instruments/erhu/E1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=221649
+
+<region>
+	region_label=F1
+	key=f1
+	sample=../instruments/erhu/F1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110115
+	loop_end=218286
+
+<region>
+	region_label=F#1
+	key=f#1
+	sample=../instruments/erhu/F#1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110609
+	loop_end=219353
+
+<region>
+	region_label=G1
+	key=g1
+	sample=../instruments/erhu/G1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=109801
+	loop_end=221415
+
+<region>
+	region_label=G#1
+	key=g#1
+	sample=../instruments/erhu/G#1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110435
+	loop_end=219997
+
+<region>
+	region_label=A1
+	key=a1
+	sample=../instruments/erhu/A1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110651
+	loop_end=220444
+
+<region>
+	region_label=Bb1
+	key=a#1
+	sample=../instruments/erhu/Bb1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110495
+	loop_end=220162
+
+<region>
+	region_label=B1
+	key=b1
+	sample=../instruments/erhu/B1.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110008
+	loop_end=222127
+
+<region>
+	region_label=C2
+	key=c2
+	sample=../instruments/erhu/C2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110576
+	loop_end=219769
+
+<region>
+	region_label=C#2
+	key=c#2
+	sample=../instruments/erhu/C#2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110098
+	loop_end=219562
+
+<region>
+	region_label=D2
+	key=d2
+	sample=../instruments/erhu/D2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110526
+	loop_end=219265
+
+<region>
+	region_label=D#2
+	key=d#2
+	sample=../instruments/erhu/D#2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=109992
+	loop_end=220656
+
+<region>
+	region_label=E2
+	key=e2
+	sample=../instruments/erhu/E2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=221096
+
+<region>
+	region_label=F2
+	key=f2
+	sample=../instruments/erhu/F2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110115
+	loop_end=219861
+
+<region>
+	region_label=F#2
+	key=f#2
+	sample=../instruments/erhu/F#2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110132
+	loop_end=220933
+
+<region>
+	region_label=G2
+	key=g2
+	sample=../instruments/erhu/G2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110251
+	loop_end=220681
+
+<region>
+	region_label=G#2
+	key=g#2
+	sample=../instruments/erhu/G#2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110435
+	loop_end=219841
+
+<region>
+	region_label=A2
+	key=a2
+	sample=../instruments/erhu/A2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110250
+	loop_end=219974
+
+<region>
+	region_label=Bb2
+	key=a#2
+	sample=../instruments/erhu/Bb2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110117
+	loop_end=220872
+
+<region>
+	region_label=B2
+	key=b2
+	sample=../instruments/erhu/B2.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110365
+	loop_end=220981
+
+<region>
+	region_label=C3
+	key=c3
+	sample=../instruments/erhu/C3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110239
+	loop_end=220732
+
+<region>
+	region_label=C#3
+	key=c#3
+	sample=../instruments/erhu/C#3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110098
+	loop_end=221076
+
+<region>
+	region_label=D3
+	key=d3
+	sample=../instruments/erhu/D3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110226
+	loop_end=220715
+
+<region>
+	region_label=D#3
+	key=d#3
+	sample=../instruments/erhu/D#3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110276
+	loop_end=221063
+
+<region>
+	region_label=E3
+	key=e3
+	sample=../instruments/erhu/E3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=220375
+
+<region>
+	region_label=F3
+	key=f3
+	sample=../instruments/erhu/F3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110367
+	loop_end=220845
+
+<region>
+	region_label=F#3
+	key=f#3
+	sample=../instruments/erhu/F#3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110132
+	loop_end=220791
+
+<region>
+	region_label=G3
+	key=g3
+	sample=../instruments/erhu/G3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110251
+	loop_end=220078
+
+<region>
+	region_label=G#3
+	key=g#3
+	sample=../instruments/erhu/G#3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110222
+	loop_end=220843
+
+<region>
+	region_label=A3
+	key=a3
+	sample=../instruments/erhu/A3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110250
+	loop_end=220512
+
+<region>
+	region_label=Bb3
+	key=a#3
+	sample=../instruments/erhu/Bb3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110306
+	loop_end=220189
+
+<region>
+	region_label=B3
+	key=b3
+	sample=../instruments/erhu/B3.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110187
+	loop_end=220839
+
+<region>
+	region_label=C4
+	key=c4
+	sample=../instruments/erhu/C4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110239
+	loop_end=220272
+
+<region>
+	region_label=C#4
+	key=c#4
+	sample=../instruments/erhu/C#4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110257
+	loop_end=220309
+
+<region>
+	region_label=D4
+	key=d4
+	sample=../instruments/erhu/D4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110226
+	loop_end=220724
+
+<region>
+	region_label=D#4
+	key=d#4
+	sample=../instruments/erhu/D#4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110276
+	loop_end=220755
+
+<region>
+	region_label=E4
+	key=e4
+	sample=../instruments/erhu/E4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=220301
+
+<region>
+	region_label=F4
+	key=f4
+	sample=../instruments/erhu/F4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=220561
+
+<region>
+	region_label=F#4
+	key=f#4
+	sample=../instruments/erhu/F#4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110252
+	loop_end=220280
+
+<region>
+	region_label=G4
+	key=g4
+	sample=../instruments/erhu/G4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110251
+	loop_end=220558
+
+<region>
+	region_label=G#4
+	key=g#4
+	sample=../instruments/erhu/G#4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110222
+	loop_end=220445
+
+<region>
+	region_label=A4
+	key=a4
+	sample=../instruments/erhu/A4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110250
+	loop_end=220312
+
+<region>
+	region_label=Bb4
+	key=a#4
+	sample=../instruments/erhu/Bb4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110211
+	loop_end=220683
+
+<region>
+	region_label=B4
+	key=b4
+	sample=../instruments/erhu/B4.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110276
+	loop_end=220390
+
+<region>
+	region_label=C5
+	key=c5
+	sample=../instruments/erhu/C5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110239
+	loop_end=220455
+
+<region>
+	region_label=C#5
+	key=c#5
+	sample=../instruments/erhu/C#5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110257
+	loop_end=220366
+
+<region>
+	region_label=D5
+	key=d5
+	sample=../instruments/erhu/D5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110226
+	loop_end=220543
+
+<region>
+	region_label=D#5
+	key=d#5
+	sample=../instruments/erhu/D#5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110276
+	loop_end=220462
+
+<region>
+	region_label=E5
+	key=e5
+	sample=../instruments/erhu/E5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=220449
+
+<region>
+	region_label=F5
+	key=f5
+	sample=../instruments/erhu/F5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=220362
+
+<region>
+	region_label=F#5
+	key=f#5
+	sample=../instruments/erhu/F#5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110252
+	loop_end=220514
+
+<region>
+	region_label=G5
+	key=g5
+	sample=../instruments/erhu/G5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110251
+	loop_end=220401
+
+<region>
+	region_label=G#5
+	key=g#5
+	sample=../instruments/erhu/G#5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110275
+	loop_end=220561
+
+<region>
+	region_label=A5
+	key=a5
+	sample=../instruments/erhu/A5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110250
+	loop_end=220533
+
+<region>
+	region_label=Bb5
+	key=a#5
+	sample=../instruments/erhu/Bb5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110259
+	loop_end=220587
+
+<region>
+	region_label=B5
+	key=b5
+	sample=../instruments/erhu/B5.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110231
+	loop_end=220502
+
+<region>
+	region_label=C6
+	key=c6
+	sample=../instruments/erhu/C6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110239
+	loop_end=220457
+
+<region>
+	region_label=C#6
+	key=c#6
+	sample=../instruments/erhu/C#6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110257
+	loop_end=220566
+
+<region>
+	region_label=D6
+	key=d6
+	sample=../instruments/erhu/D6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110263
+	loop_end=220545
+
+<region>
+	region_label=D#6
+	key=d#6
+	sample=../instruments/erhu/D#6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110240
+	loop_end=220566
+
+<region>
+	region_label=E6
+	key=e6
+	sample=../instruments/erhu/E6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=220567
+
+<region>
+	region_label=F6
+	key=f6
+	sample=../instruments/erhu/F6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110241
+	loop_end=220466
+
+<region>
+	region_label=F#6
+	key=f#6
+	sample=../instruments/erhu/F#6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110252
+	loop_end=220458
+
+<region>
+	region_label=G6
+	key=g6
+	sample=../instruments/erhu/G6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110251
+	loop_end=220526
+
+<region>
+	region_label=G#6
+	key=g#6
+	sample=../instruments/erhu/G#6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110249
+	loop_end=220483
+
+<region>
+	region_label=A6
+	key=a6
+	sample=../instruments/erhu/A6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110250
+	loop_end=220499
+
+<region>
+	region_label=Bb6
+	key=a#6
+	sample=../instruments/erhu/Bb6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110259
+	loop_end=220539
+
+<region>
+	region_label=B6
+	key=b6
+	sample=../instruments/erhu/B6.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110254
+	loop_end=220537
+
+<region>
+	region_label=C7
+	key=c7
+	sample=../instruments/erhu/C7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110260
+	loop_end=220467
+
+<region>
+	region_label=C#7
+	key=c#7
+	sample=../instruments/erhu/C#7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110257
+	loop_end=220504
+
+<region>
+	region_label=D7
+	key=d7
+	sample=../instruments/erhu/D7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110244
+	loop_end=220514
+
+<region>
+	region_label=D#7
+	key=d#7
+	sample=../instruments/erhu/D#7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110258
+	loop_end=220512
+
+<region>
+	region_label=E7
+	key=e7
+	sample=../instruments/erhu/E7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110258
+	loop_end=220529
+
+<region>
+	region_label=F7
+	key=f7
+	sample=../instruments/erhu/F7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110257
+	loop_end=220466
+
+<region>
+	region_label=F#7
+	key=f#7
+	sample=../instruments/erhu/F#7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110252
+	loop_end=220505
+
+<region>
+	region_label=G7
+	key=g7
+	sample=../instruments/erhu/G7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110251
+	loop_end=220513
+
+<region>
+	region_label=G#7
+	key=g#7
+	sample=../instruments/erhu/G#7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110249
+	loop_end=220508
+
+<region>
+	region_label=A7
+	key=a7
+	sample=../instruments/erhu/A7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110250
+	loop_end=220489
+
+<region>
+	region_label=Bb7
+	key=a#7
+	sample=../instruments/erhu/Bb7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110247
+	loop_end=220520
+
+<region>
+	region_label=B7
+	key=b7
+	sample=../instruments/erhu/B7.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110254
+	loop_end=220486
+
+<region>
+	region_label=C8
+	key=c8
+	sample=../instruments/erhu/C8.ogg
+	ampeg_release=0.4
+	loop_mode=loop_continuous
+	loop_start=110250
+	loop_end=220489
+

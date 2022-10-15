@@ -72,3 +72,21 @@ if Musician.INSTRUMENTS["dizi"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "recorder" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "dizi")
 end
+
+if Musician.INSTRUMENTS["erhu"] == nil then
+	Musician.INSTRUMENTS["erhu"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\erhu",
+		decay = 100,
+		isPercussion = false,
+		midi = 92, -- Pad5Bowed
+		loop = { 5, 5 },
+		crossfade = 100,
+		color = { 0.9, 0.359, 0.029 },
+		source = "Mini ErHu"
+	}
+
+	-- Insert the erhu after the nyckelharpa
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "nyckelharpa" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "erhu")
+end
