@@ -54,3 +54,21 @@ if Musician.INSTRUMENTS["guzheng"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "dulcimer" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "guzheng")
 end
+
+if Musician.INSTRUMENTS["dizi"] == nil then
+	Musician.INSTRUMENTS["dizi"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\dizi",
+		decay = 150,
+		isPercussion = false,
+		midi = 73, -- Flute
+		loop = { 4, 5 },
+		crossfade = 150,
+		color = { 0.00, 1.00 / 1.25, 0.59 / 1.25 },
+		source = "Mini DiZi"
+	}
+
+	-- Insert the dizi after the recorder
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "recorder" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "dizi")
+end
