@@ -1,6 +1,12 @@
 Changelog
 =========
 
+v0.3.0
+------
+* Added guzheng.
+* Added dizi (chinese bamboo flute).
+* Added erhu.
+
 v0.2.0
 ------
 * Added Nyckelharpa.
