@@ -28,7 +28,8 @@ if Musician.INSTRUMENTS["nyckelharpa"] == nil then
 		crossfade = 150,
 		color = { 1.00 / 1.25, 0.49 / 1.25, 0.04 / 1.25 },
 		release = "Interface\\AddOns\\MusicianExtended\\instruments\\nyckelharpa-release",
-		releaseDecay = 1500,
+		releaseSustain = 1000,
+		releaseDecay = 1000,
 		source = "ERA II Medieval Legends"
 	}
 
