@@ -109,3 +109,21 @@ if Musician.INSTRUMENTS["saxophone"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "bassoon" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "saxophone")
 end
+
+if Musician.INSTRUMENTS["saw_wave"] == nil then
+	Musician.INSTRUMENTS["saw_wave"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\saw-wave",
+		decay = 25,
+		isPercussion = false,
+		midi = 81, -- Lead2Sawtooth
+		loop = { 4, 5 },
+		crossfade = 150,
+		color = { 0.84, 0.39, 0.99 },
+		source = "Oberheim OB-Xa"
+	}
+
+	-- Insert the saw wave after the bass guitar
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "bass_guitar" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "saw_wave")
+end
