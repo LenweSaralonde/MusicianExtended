@@ -21,7 +21,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99788
-	loop_end=200698
+	loop_end=195240
 
 <region>
 	region_label=C#0
@@ -30,7 +30,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99279
-	loop_end=194515
+	loop_end=202222
 
 <region>
 	region_label=D0
@@ -39,7 +39,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=98512
-	loop_end=195659
+	loop_end=195658
 
 <region>
 	region_label=D#0
@@ -48,7 +48,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99787
-	loop_end=202877
+	loop_end=200599
 
 <region>
 	region_label=E0
@@ -57,7 +57,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=98467
-	loop_end=202217
+	loop_end=202218
 
 <region>
 	region_label=F0
@@ -66,7 +66,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99002
-	loop_end=194855
+	loop_end=194862
 
 <region>
 	region_label=F#0
@@ -75,7 +75,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99167
-	loop_end=199218
+	loop_end=201139
 
 <region>
 	region_label=G0
@@ -93,7 +93,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=98542
-	loop_end=196177
+	loop_end=196174
 
 <region>
 	region_label=A0
@@ -102,7 +102,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99425
-	loop_end=201462
+	loop_end=201471
 
 <region>
 	region_label=Bb0
@@ -111,7 +111,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99900
-	loop_end=200750
+	loop_end=199240
 
 <region>
 	region_label=B0
@@ -120,7 +120,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=98579
-	loop_end=198009
+	loop_end=198012
 
 <region>
 	region_label=C1
@@ -129,7 +129,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99788
-	loop_end=196233
+	loop_end=196235
 
 <region>
 	region_label=C#1
@@ -138,7 +138,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99279
-	loop_end=197614
+	loop_end=197605
 
 <region>
 	region_label=D1
@@ -147,7 +147,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99714
-	loop_end=199812
+	loop_end=196048
 
 <region>
 	region_label=D#1
@@ -156,7 +156,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99787
-	loop_end=199991
+	loop_end=199986
 
 <region>
 	region_label=E1
@@ -174,7 +174,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99002
-	loop_end=196404
+	loop_end=196403
 
 <region>
 	region_label=F#1
@@ -183,7 +183,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99167
-	loop_end=199462
+	loop_end=199464
 
 <region>
 	region_label=G1
@@ -192,7 +192,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99001
-	loop_end=197862
+	loop_end=197858
 
 <region>
 	region_label=G#1
@@ -210,7 +210,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99425
-	loop_end=198014
+	loop_end=198015
 
 <region>
 	region_label=Bb1
@@ -228,7 +228,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99293
-	loop_end=199105
+	loop_end=199107
 
 <region>
 	region_label=C2
@@ -237,7 +237,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99114
-	loop_end=198101
+	loop_end=198099
 
 <region>
 	region_label=C#2
@@ -246,7 +246,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99279
-	loop_end=199770
+	loop_end=199769
 
 <region>
 	region_label=D2
@@ -255,7 +255,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99113
-	loop_end=199219
+	loop_end=199218
 
 <region>
 	region_label=D#2
@@ -264,7 +264,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99220
-	loop_end=199278
+	loop_end=199152
 
 <region>
 	region_label=E2
@@ -282,7 +282,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99002
-	loop_end=198587
+	loop_end=198586
 
 <region>
 	region_label=F#2
@@ -291,7 +291,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99167
-	loop_end=198988
+	loop_end=198992
 
 <region>
 	region_label=G2
@@ -318,7 +318,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99425
-	loop_end=197727
+	loop_end=197725
 
 <region>
 	region_label=Bb2
@@ -327,7 +327,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99143
-	loop_end=197564
+	loop_end=197562
 
 <region>
 	region_label=B2
@@ -345,7 +345,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99114
-	loop_end=197971
+	loop_end=197970
 
 <region>
 	region_label=C#3
@@ -354,7 +354,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99279
-	loop_end=198906
+	loop_end=198905
 
 <region>
 	region_label=D3
@@ -381,7 +381,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99270
-	loop_end=198863
+	loop_end=198599
 
 <region>
 	region_label=F3
@@ -426,7 +426,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99225
-	loop_end=198839
+	loop_end=198838
 
 <region>
 	region_label=Bb3
@@ -435,7 +435,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99143
-	loop_end=198704
+	loop_end=198706
 
 <region>
 	region_label=B3
@@ -453,7 +453,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99283
-	loop_end=198223
+	loop_end=198726
 
 <region>
 	region_label=C#4
@@ -462,7 +462,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99279
-	loop_end=198643
+	loop_end=198644
 
 <region>
 	region_label=D4
@@ -471,7 +471,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99263
-	loop_end=198156
+	loop_end=198155
 
 <region>
 	region_label=D#4
@@ -480,7 +480,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99220
-	loop_end=198179
+	loop_end=198605
 
 <region>
 	region_label=E4
@@ -489,7 +489,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99270
-	loop_end=198159
+	loop_end=198161
 
 <region>
 	region_label=F4
@@ -498,7 +498,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99255
-	loop_end=198730
+	loop_end=198733
 
 <region>
 	region_label=F#4
@@ -516,7 +516,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99226
-	loop_end=198261
+	loop_end=198260
 
 <region>
 	region_label=G#4
@@ -642,7 +642,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99225
-	loop_end=198441
+	loop_end=198442
 
 <region>
 	region_label=Bb5
@@ -651,7 +651,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99237
-	loop_end=198362
+	loop_end=198456
 
 <region>
 	region_label=B5
@@ -687,7 +687,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99226
-	loop_end=198510
+	loop_end=198509
 
 <region>
 	region_label=D#6
@@ -714,7 +714,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99223
-	loop_end=198410
+	loop_end=198442
 
 <region>
 	region_label=F#6
@@ -723,7 +723,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99226
-	loop_end=198449
+	loop_end=198479
 
 <region>
 	region_label=G6
@@ -741,7 +741,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99232
-	loop_end=198414
+	loop_end=198387
 
 <region>
 	region_label=A6
@@ -750,7 +750,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99225
-	loop_end=198498
+	loop_end=198473
 
 <region>
 	region_label=Bb6
@@ -777,7 +777,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99220
-	loop_end=198487
+	loop_end=198466
 
 <region>
 	region_label=C#7
@@ -804,7 +804,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99220
-	loop_end=198491
+	loop_end=198438
 
 <region>
 	region_label=E7
@@ -822,7 +822,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99223
-	loop_end=198444
+	loop_end=198476
 
 <region>
 	region_label=F#7
@@ -840,7 +840,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99226
-	loop_end=198456
+	loop_end=198470
 
 <region>
 	region_label=G#7
@@ -867,7 +867,7 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99226
-	loop_end=198441
+	loop_end=198464
 
 <region>
 	region_label=B7
@@ -885,5 +885,5 @@ amp_velcurve_1=1 // All notes play max velocity
 	ampeg_release=0.6
 	loop_mode=loop_continuous
 	loop_start=99230
-	loop_end=198455
+	loop_end=198466
 
