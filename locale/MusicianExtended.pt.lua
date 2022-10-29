@@ -1,4 +1,4 @@
-Musician.Locale.pt.INSTRUMENT_NAMES["pipe-organ"] = "Órgão da igreja"
+Musician.Locale.pt.INSTRUMENT_NAMES["pipe_organ"] = "Órgão da igreja"
 Musician.Locale.pt.INSTRUMENT_NAMES["nyckelharpa"] = "Nyckelharpa"
 Musician.Locale.pt.INSTRUMENT_NAMES["guzheng"] = "Guzheng"
 Musician.Locale.pt.INSTRUMENT_NAMES["dizi"] = "Dizi"

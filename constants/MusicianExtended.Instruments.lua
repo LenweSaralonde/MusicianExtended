@@ -1,5 +1,5 @@
-if Musician.INSTRUMENTS["pipe-organ"] == nil then
-	Musician.INSTRUMENTS["pipe-organ"] = {
+if Musician.INSTRUMENTS["pipe_organ"] == nil then
+	Musician.INSTRUMENTS["pipe_organ"] = {
 		path = "Interface\\AddOns\\MusicianExtended\\instruments\\pipe-organ",
 		decay = 150,
 		isPercussion = false,
@@ -14,7 +14,7 @@ if Musician.INSTRUMENTS["pipe-organ"] == nil then
 	-- Insert the pipe organ after the piano
 	local i = 1
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "piano" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
-	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "pipe-organ")
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "pipe_organ")
 end
 
 if Musician.INSTRUMENTS["nyckelharpa"] == nil then
