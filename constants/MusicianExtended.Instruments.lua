@@ -91,3 +91,21 @@ if Musician.INSTRUMENTS["erhu"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "nyckelharpa" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "erhu")
 end
+
+if Musician.INSTRUMENTS["saxophone"] == nil then
+	Musician.INSTRUMENTS["saxophone"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\saxophone",
+		decay = 100,
+		isPercussion = false,
+		midi = 65, -- AltoSax
+		loop = { 4, 5 },
+		crossfade = 150,
+		color = { 1.00 / 1.25, 0.96 / 1.25, 0.41 / 1.25 },
+		source = "Saxophia"
+	}
+
+	-- Insert the saxophone after the bassoon
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "bassoon" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "saxophone")
+end
