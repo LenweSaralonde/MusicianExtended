@@ -3,6 +3,7 @@ Musician: Extended
 This plugin adds more instruments to [Musician](https://github.com/LenweSaralonde/Musician):
 
 * Pipe organ (*Leeds Town Hall Organ*)
+* Tonewheel organ
 * Nyckelharpa
 * Guzheng
 * Dizi (chinese bamboo flute)
@@ -20,6 +21,7 @@ MIDI mapping
 ------------
 The instruments are mapped to the following MIDI programs:
 
+* **18.** Tonewheel organ (Rock organ)
 * **19.** Pipe organ
 * **41.** Nyckelharpa (viola)
 * **65.** Saxophone (alto)

@@ -127,3 +127,21 @@ if Musician.INSTRUMENTS["saw_wave"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "bass_guitar" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "saw_wave")
 end
+
+if Musician.INSTRUMENTS["electric_organ"] == nil then
+	Musician.INSTRUMENTS["electric_organ"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\electric-organ",
+		decay = 25,
+		isPercussion = false,
+		midi = 18, -- RockOrgan
+		loop = { 4, 5 },
+		crossfade = 150,
+		color = { 0.85 * .8, 0.95 * .8, 1 },
+		source = "Hammond B3"
+	}
+
+	-- Insert the electric organ after the pipe organ
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "pipe_organ" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "electric_organ")
+end
