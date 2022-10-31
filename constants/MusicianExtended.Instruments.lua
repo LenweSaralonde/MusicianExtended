@@ -145,3 +145,21 @@ if Musician.INSTRUMENTS["electric_organ"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "pipe_organ" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "electric_organ")
 end
+
+if Musician.INSTRUMENTS["oboe"] == nil then
+	Musician.INSTRUMENTS["oboe"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\oboe",
+		decay = 150,
+		isPercussion = false,
+		midi = 68, -- Oboe
+		loop = { 4, 5 },
+		crossfade = 150,
+		color = { 0.67 / 1.25, 0.83 / 1.25, 0.45 / 1.25 },
+		source = "VSCO2 Oboe"
+	}
+
+	-- Insert the oboe after the clarinet
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "clarinet" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "oboe")
+end

@@ -1,0 +1,890 @@
+/*
+// **********************************************************************
+// Oboe
+// Soundfont from Musician, the music add-on for World of Warcraft
+// https://musician.lenwe.io
+// MIDI program: 68
+// Samples from VSCO2 Oboe
+// **********************************************************************
+*/
+
+<global>
+global_label=Musician instruments
+
+<group>
+group_label=68. Oboe
+amp_velcurve_1=1 // All notes play max velocity
+
+<region>
+	region_label=C0
+	key=c0
+	sample=../instruments/oboe/C0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99788
+	loop_end=196699
+
+<region>
+	region_label=C#0
+	key=c#0
+	sample=../instruments/oboe/C#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99279
+	loop_end=195834
+
+<region>
+	region_label=D0
+	key=d0
+	sample=../instruments/oboe/D0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=98512
+	loop_end=196845
+
+<region>
+	region_label=D#0
+	key=d#0
+	sample=../instruments/oboe/D#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99787
+	loop_end=197129
+
+<region>
+	region_label=E0
+	key=e0
+	sample=../instruments/oboe/E0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=98467
+	loop_end=196779
+
+<region>
+	region_label=F0
+	key=f0
+	sample=../instruments/oboe/F0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99002
+	loop_end=195825
+
+<region>
+	region_label=F#0
+	key=f#0
+	sample=../instruments/oboe/F#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99167
+	loop_end=196276
+
+<region>
+	region_label=G0
+	key=g0
+	sample=../instruments/oboe/G0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99001
+	loop_end=196066
+
+<region>
+	region_label=G#0
+	key=g#0
+	sample=../instruments/oboe/G#0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=98542
+	loop_end=196957
+
+<region>
+	region_label=A0
+	key=a0
+	sample=../instruments/oboe/A0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99425
+	loop_end=197125
+
+<region>
+	region_label=Bb0
+	key=a#0
+	sample=../instruments/oboe/Bb0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99900
+	loop_end=196679
+
+<region>
+	region_label=B0
+	key=b0
+	sample=../instruments/oboe/B0.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=98579
+	loop_end=197076
+
+<region>
+	region_label=C1
+	key=c1
+	sample=../instruments/oboe/C1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99788
+	loop_end=196807
+
+<region>
+	region_label=C#1
+	key=c#1
+	sample=../instruments/oboe/C#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99279
+	loop_end=197237
+
+<region>
+	region_label=D1
+	key=d1
+	sample=../instruments/oboe/D1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99714
+	loop_end=198195
+
+<region>
+	region_label=D#1
+	key=d#1
+	sample=../instruments/oboe/D#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99787
+	loop_end=197276
+
+<region>
+	region_label=E1
+	key=e1
+	sample=../instruments/oboe/E1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99538
+	loop_end=197980
+
+<region>
+	region_label=F1
+	key=f1
+	sample=../instruments/oboe/F1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99002
+	loop_end=197983
+
+<region>
+	region_label=F#1
+	key=f#1
+	sample=../instruments/oboe/F#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99167
+	loop_end=198319
+
+<region>
+	region_label=G1
+	key=g1
+	sample=../instruments/oboe/G1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99001
+	loop_end=198883
+
+<region>
+	region_label=G#1
+	key=g#1
+	sample=../instruments/oboe/G#1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99391
+	loop_end=197910
+
+<region>
+	region_label=A1
+	key=a1
+	sample=../instruments/oboe/A1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99425
+	loop_end=198024
+
+<region>
+	region_label=Bb1
+	key=a#1
+	sample=../instruments/oboe/Bb1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99143
+	loop_end=198257
+
+<region>
+	region_label=B1
+	key=b1
+	sample=../instruments/oboe/B1.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99293
+	loop_end=197833
+
+<region>
+	region_label=C2
+	key=c2
+	sample=../instruments/oboe/C2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99114
+	loop_end=197521
+
+<region>
+	region_label=C#2
+	key=c#2
+	sample=../instruments/oboe/C#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99279
+	loop_end=198539
+
+<region>
+	region_label=D2
+	key=d2
+	sample=../instruments/oboe/D2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99113
+	loop_end=198808
+
+<region>
+	region_label=D#2
+	key=d#2
+	sample=../instruments/oboe/D#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198412
+
+<region>
+	region_label=E2
+	key=e2
+	sample=../instruments/oboe/E2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99003
+	loop_end=199060
+
+<region>
+	region_label=F2
+	key=f2
+	sample=../instruments/oboe/F2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99002
+	loop_end=197972
+
+<region>
+	region_label=F#2
+	key=f#2
+	sample=../instruments/oboe/F#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99167
+	loop_end=199267
+
+<region>
+	region_label=G2
+	key=g2
+	sample=../instruments/oboe/G2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99001
+	loop_end=198431
+
+<region>
+	region_label=G#2
+	key=g#2
+	sample=../instruments/oboe/G#2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99391
+	loop_end=198326
+
+<region>
+	region_label=A2
+	key=a2
+	sample=../instruments/oboe/A2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99425
+	loop_end=198822
+
+<region>
+	region_label=Bb2
+	key=a#2
+	sample=../instruments/oboe/Bb2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99143
+	loop_end=199015
+
+<region>
+	region_label=B2
+	key=b2
+	sample=../instruments/oboe/B2.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99293
+	loop_end=198565
+
+<region>
+	region_label=C3
+	key=c3
+	sample=../instruments/oboe/C3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99114
+	loop_end=199225
+
+<region>
+	region_label=C#3
+	key=c#3
+	sample=../instruments/oboe/C#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99279
+	loop_end=198873
+
+<region>
+	region_label=D3
+	key=d3
+	sample=../instruments/oboe/D3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99113
+	loop_end=198821
+
+<region>
+	region_label=D#3
+	key=d#3
+	sample=../instruments/oboe/D#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198996
+
+<region>
+	region_label=E3
+	key=e3
+	sample=../instruments/oboe/E3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99270
+	loop_end=198800
+
+<region>
+	region_label=F3
+	key=f3
+	sample=../instruments/oboe/F3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99255
+	loop_end=199005
+
+<region>
+	region_label=F#3
+	key=f#3
+	sample=../instruments/oboe/F#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99167
+	loop_end=198315
+
+<region>
+	region_label=G3
+	key=g3
+	sample=../instruments/oboe/G3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198882
+
+<region>
+	region_label=G#3
+	key=g#3
+	sample=../instruments/oboe/G#3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99179
+	loop_end=198757
+
+<region>
+	region_label=A3
+	key=a3
+	sample=../instruments/oboe/A3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99225
+	loop_end=198822
+
+<region>
+	region_label=Bb3
+	key=a#3
+	sample=../instruments/oboe/Bb3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99143
+	loop_end=198251
+
+<region>
+	region_label=B3
+	key=b3
+	sample=../instruments/oboe/B3.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99293
+	loop_end=198633
+
+<region>
+	region_label=C4
+	key=c4
+	sample=../instruments/oboe/C4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99283
+	loop_end=198607
+
+<region>
+	region_label=C#4
+	key=c#4
+	sample=../instruments/oboe/C#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99279
+	loop_end=198121
+
+<region>
+	region_label=D4
+	key=d4
+	sample=../instruments/oboe/D4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99263
+	loop_end=198112
+
+<region>
+	region_label=D#4
+	key=d#4
+	sample=../instruments/oboe/D#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198194
+
+<region>
+	region_label=E4
+	key=e4
+	sample=../instruments/oboe/E4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99270
+	loop_end=198573
+
+<region>
+	region_label=F4
+	key=f4
+	sample=../instruments/oboe/F4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99255
+	loop_end=198673
+
+<region>
+	region_label=F#4
+	key=f#4
+	sample=../instruments/oboe/F#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99167
+	loop_end=198488
+
+<region>
+	region_label=G4
+	key=g4
+	sample=../instruments/oboe/G4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198597
+
+<region>
+	region_label=G#4
+	key=g#4
+	sample=../instruments/oboe/G#4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99179
+	loop_end=198323
+
+<region>
+	region_label=A4
+	key=a4
+	sample=../instruments/oboe/A4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99225
+	loop_end=198320
+
+<region>
+	region_label=Bb4
+	key=a#4
+	sample=../instruments/oboe/Bb4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99237
+	loop_end=198361
+
+<region>
+	region_label=B4
+	key=b4
+	sample=../instruments/oboe/B4.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99204
+	loop_end=198578
+
+<region>
+	region_label=C5
+	key=c5
+	sample=../instruments/oboe/C5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99198
+	loop_end=198491
+
+<region>
+	region_label=C#5
+	key=c#5
+	sample=../instruments/oboe/C#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99199
+	loop_end=198579
+
+<region>
+	region_label=D5
+	key=d5
+	sample=../instruments/oboe/D5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99188
+	loop_end=198330
+
+<region>
+	region_label=D#5
+	key=d#5
+	sample=../instruments/oboe/D#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198556
+
+<region>
+	region_label=E5
+	key=e5
+	sample=../instruments/oboe/E5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99203
+	loop_end=198474
+
+<region>
+	region_label=F5
+	key=f5
+	sample=../instruments/oboe/F5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99255
+	loop_end=198564
+
+<region>
+	region_label=F#5
+	key=f#5
+	sample=../instruments/oboe/F#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198347
+
+<region>
+	region_label=G5
+	key=g5
+	sample=../instruments/oboe/G5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198428
+
+<region>
+	region_label=G#5
+	key=g#5
+	sample=../instruments/oboe/G#5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99232
+	loop_end=198391
+
+<region>
+	region_label=A5
+	key=a5
+	sample=../instruments/oboe/A5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99225
+	loop_end=198531
+
+<region>
+	region_label=Bb5
+	key=a#5
+	sample=../instruments/oboe/Bb5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99237
+	loop_end=198351
+
+<region>
+	region_label=B5
+	key=b5
+	sample=../instruments/oboe/B5.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99204
+	loop_end=198515
+
+<region>
+	region_label=C6
+	key=c6
+	sample=../instruments/oboe/C6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99241
+	loop_end=198453
+
+<region>
+	region_label=C#6
+	key=c#6
+	sample=../instruments/oboe/C#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99239
+	loop_end=198498
+
+<region>
+	region_label=D6
+	key=d6
+	sample=../instruments/oboe/D6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198437
+
+<region>
+	region_label=D#6
+	key=d#6
+	sample=../instruments/oboe/D#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198496
+
+<region>
+	region_label=E6
+	key=e6
+	sample=../instruments/oboe/E6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99237
+	loop_end=198372
+
+<region>
+	region_label=F6
+	key=f6
+	sample=../instruments/oboe/F6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99223
+	loop_end=198507
+
+<region>
+	region_label=F#6
+	key=f#6
+	sample=../instruments/oboe/F#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198485
+
+<region>
+	region_label=G6
+	key=g6
+	sample=../instruments/oboe/G6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198431
+
+<region>
+	region_label=G#6
+	key=g#6
+	sample=../instruments/oboe/G#6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99232
+	loop_end=198390
+
+<region>
+	region_label=A6
+	key=a6
+	sample=../instruments/oboe/A6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99225
+	loop_end=198444
+
+<region>
+	region_label=Bb6
+	key=a#6
+	sample=../instruments/oboe/Bb6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99214
+	loop_end=198470
+
+<region>
+	region_label=B6
+	key=b6
+	sample=../instruments/oboe/B6.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198448
+
+<region>
+	region_label=C7
+	key=c7
+	sample=../instruments/oboe/C7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198499
+
+<region>
+	region_label=C#7
+	key=c#7
+	sample=../instruments/oboe/C#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99219
+	loop_end=198435
+
+<region>
+	region_label=D7
+	key=d7
+	sample=../instruments/oboe/D7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198488
+
+<region>
+	region_label=D#7
+	key=d#7
+	sample=../instruments/oboe/D#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198475
+
+<region>
+	region_label=E7
+	key=e7
+	sample=../instruments/oboe/E7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99220
+	loop_end=198457
+
+<region>
+	region_label=F7
+	key=f7
+	sample=../instruments/oboe/F7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99223
+	loop_end=198449
+
+<region>
+	region_label=F#7
+	key=f#7
+	sample=../instruments/oboe/F#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198456
+
+<region>
+	region_label=G7
+	key=g7
+	sample=../instruments/oboe/G7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198428
+
+<region>
+	region_label=G#7
+	key=g#7
+	sample=../instruments/oboe/G#7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99219
+	loop_end=198470
+
+<region>
+	region_label=A7
+	key=a7
+	sample=../instruments/oboe/A7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99225
+	loop_end=198430
+
+<region>
+	region_label=Bb7
+	key=a#7
+	sample=../instruments/oboe/Bb7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198471
+
+<region>
+	region_label=B7
+	key=b7
+	sample=../instruments/oboe/B7.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99226
+	loop_end=198472
+
+<region>
+	region_label=C8
+	key=c8
+	sample=../instruments/oboe/C8.ogg
+	ampeg_release=0.6
+	loop_mode=loop_continuous
+	loop_start=99230
+	loop_end=198469
+

@@ -8,6 +8,7 @@ This plugin adds more instruments to [Musician](https://github.com/LenweSaralond
 * Guzheng
 * Dizi (chinese bamboo flute)
 * Erhu
+* Oboe
 * Saxophone (alto)
 * Sawtooth wave
 
@@ -25,6 +26,7 @@ The instruments are mapped to the following MIDI programs:
 * **19.** Pipe organ
 * **41.** Nyckelharpa (viola)
 * **65.** Saxophone (alto)
+* **68.** Oboe
 * **73.** Dizi (flute)
 * **81.** Sawtooth wave
 * **92.** Erhu (bowed pad)
