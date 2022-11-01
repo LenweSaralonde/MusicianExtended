@@ -1,6 +1,16 @@
 Changelog
 =========
 
+v0.4.0
+------
+* Added alto saxophone.
+* Added saw wave.
+* Added electric organ.
+* Added oboe.
+* Added marimba.
+* Added tubular bells.
+* Added automatic sound cache size adjustment.
+
 v0.3.0
 ------
 * Added guzheng.
