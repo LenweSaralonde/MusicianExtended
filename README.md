@@ -11,6 +11,7 @@ This plugin adds more instruments to [Musician](https://github.com/LenweSaralond
 * Oboe
 * Saxophone (alto)
 * Sawtooth wave
+* Marimba
 
 If you have [MusicianList](https://github.com/LenweSaralonde/MusicianList) with previously saved songs before installing this instrument pack, you'll need to manually edit each song to select the instruments from the pack you want to use.
 
@@ -22,6 +23,7 @@ MIDI mapping
 ------------
 The instruments are mapped to the following MIDI programs:
 
+* **12.** Marimba
 * **18.** Tonewheel organ (Rock organ)
 * **19.** Pipe organ
 * **41.** Nyckelharpa (viola)

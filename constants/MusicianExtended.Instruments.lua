@@ -163,3 +163,20 @@ if Musician.INSTRUMENTS["oboe"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "clarinet" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "oboe")
 end
+
+if Musician.INSTRUMENTS["marimba"] == nil then
+	Musician.INSTRUMENTS["marimba"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\marimba",
+		decay = 1000,
+		isPercussion = false,
+		isPlucked = true,
+		midi = 12, -- Marimba
+		color = { 0.78 / 1.25, 0.61 / 1.25, 0.43 / 1.25 },
+		source = "Marimbaphonic"
+	}
+
+	-- Insert the marimba before the percussions set
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "percussions" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i, "marimba")
+end
