@@ -128,6 +128,24 @@ if Musician.INSTRUMENTS["saw_wave"] == nil then
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "saw_wave")
 end
 
+if Musician.INSTRUMENTS["square_wave"] == nil then
+	Musician.INSTRUMENTS["square_wave"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\square-wave",
+		decay = 25,
+		isPercussion = false,
+		midi = 80, -- Lead1Square
+		loop = { 4, 5 },
+		crossfade = 150,
+		color = { 0.84 / 1.2, 0.39 / 1.2, 0.99 / 1.2 },
+		source = "Oberheim OB-Xa"
+	}
+
+	-- Insert the square wave after the saw wave
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "saw_wave" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "square_wave")
+end
+
 if Musician.INSTRUMENTS["electric_organ"] == nil then
 	Musician.INSTRUMENTS["electric_organ"] = {
 		path = "Interface\\AddOns\\MusicianExtended\\instruments\\electric-organ",

@@ -11,6 +11,7 @@ This plugin adds more instruments to [Musician](https://github.com/LenweSaralond
 * Oboe
 * Saxophone (alto)
 * Sawtooth wave (*Oberheim OB-Xa*)
+* Square wave (*Oberheim OB-Xa*)
 * Marimba
 * Tubular bells
 
@@ -32,6 +33,7 @@ The instruments are mapped to the following MIDI programs:
 * **65.** Saxophone (alto)
 * **68.** Oboe
 * **73.** Dizi (flute)
+* **80.** Square wave
 * **81.** Sawtooth wave
 * **92.** Erhu (bowed pad)
 * **107.** Guzheng (koto)
