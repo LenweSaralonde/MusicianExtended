@@ -8,3 +8,4 @@ Musician.Locale.ru.INSTRUMENT_NAMES["saw_wave"] = "Пилообразная во
 Musician.Locale.ru.INSTRUMENT_NAMES["electric_organ"] = "Орган с колесом тона"
 Musician.Locale.ru.INSTRUMENT_NAMES["oboe"] = "Гобой"
 Musician.Locale.ru.INSTRUMENT_NAMES["marimba"] = "Маримба"
+Musician.Locale.ru.INSTRUMENT_NAMES["tubular_bells"] = "Трубчатые колокола"

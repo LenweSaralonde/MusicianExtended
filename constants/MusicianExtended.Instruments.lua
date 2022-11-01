@@ -180,3 +180,20 @@ if Musician.INSTRUMENTS["marimba"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "percussions" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i, "marimba")
 end
+
+if Musician.INSTRUMENTS["tubular_bells"] == nil then
+	Musician.INSTRUMENTS["tubular_bells"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\tubular-bells",
+		decay = 1000,
+		isPercussion = false,
+		isPlucked = true,
+		midi = 14, -- TubularBells
+		color = { 0.78 / 1.25, 0.61 / 1.25, 0.43 / 1.25 },
+		source = "LABS Christmas"
+	}
+
+	-- Insert the tubular bells after the marimba
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "marimba" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "tubular_bells")
+end
