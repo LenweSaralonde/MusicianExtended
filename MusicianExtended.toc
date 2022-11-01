@@ -7,9 +7,10 @@
 ## LoadOnDemand: 0
 ## Notes: Additional instrument pack for Musician
 
+core\MusicianExtended.lua
+
+constants\MusicianExtended.Constants.lua
 constants\MusicianExtended.Instruments.lua
 constants\MusicianExtended.MidiMapping.lua
-
-core\MusicianExtended.lua
 
 locale\locale.xml

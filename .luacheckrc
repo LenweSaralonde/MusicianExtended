@@ -7,6 +7,9 @@ ignore = {
 	-- Ignore global writes/accesses/mutations on anything prefixed with "Musician".
 	-- This is the standard prefix for all of our global frame names and mixins.
 	"11./^Musician",
+
+	-- Ignore unused self. This would popup for Mixins and Objects
+	"212/self",
 }
 
 globals = {
