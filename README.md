@@ -3,14 +3,14 @@ Musician: Extended
 This plugin adds more instruments to [Musician](https://github.com/LenweSaralonde/Musician):
 
 * Pipe organ (*Leeds Town Hall Organ*)
-* Tonewheel organ
-* Nyckelharpa
-* Guzheng
-* Dizi (chinese bamboo flute)
-* Erhu
+* Tonewheel organ (*Hammond B3*)
+* Nyckelharpa (*swedish keyed fiddle*)
+* Guzheng (*chinese plucked zither*)
+* Dizi (*chinese bamboo flute*)
+* Erhu (*chinese spike fiddle*)
 * Oboe
 * Saxophone (alto)
-* Sawtooth wave
+* Sawtooth wave (*Oberheim OB-Xa*)
 * Marimba
 
 If you have [MusicianList](https://github.com/LenweSaralonde/MusicianList) with previously saved songs before installing this instrument pack, you'll need to manually edit each song to select the instruments from the pack you want to use.
