@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v0.5.0
+------
+* Added square wave.
+
 v0.4.0
 ------
 * Added alto saxophone.
