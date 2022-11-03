@@ -37,3 +37,9 @@ The instruments are mapped to the following MIDI programs:
 * **81.** Sawtooth wave
 * **92.** Erhu (bowed pad)
 * **107.** Guzheng (koto)
+
+Caveats
+-------
+**Musician: Extended** adds a substantial number of samples. This results in longer loading times at cold start and a higher RAM usage for the sound cache.
+
+The game's sound engine may also take longer to start, resulting in having no sound for a few seconds after first logging in.
