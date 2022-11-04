@@ -215,3 +215,20 @@ if Musician.INSTRUMENTS["tubular_bells"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "marimba" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "tubular_bells")
 end
+
+if Musician.INSTRUMENTS["synth_bass"] == nil then
+	Musician.INSTRUMENTS["synth_bass"] = {
+		path = "Interface\\AddOns\\MusicianExtended\\instruments\\synth-bass",
+		decay = 75,
+		isPercussion = false,
+		isPlucked = true,
+		midi = 38, -- SynthBass1
+		color = { 0.58 / 1.5, 0.51 / 1.5, 0.79 / 1.5 },
+		source = "Yamaha DX7"
+	}
+
+	-- Insert the synth bass after the bass guitar
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "bass_guitar" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "synth_bass")
+end

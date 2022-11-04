@@ -12,6 +12,7 @@ This plugin adds more instruments to [Musician](https://github.com/LenweSaralond
 * Saxophone (alto)
 * Sawtooth wave (*Oberheim OB-Xa*)
 * Square wave (*Oberheim OB-Xa*)
+* Synth bass (*Yamaha DX7*)
 * Marimba
 * Tubular bells
 
@@ -29,14 +30,15 @@ The instruments are mapped to the following MIDI programs:
 * **14.** Tubular bells
 * **18.** Tonewheel organ (Rock organ)
 * **19.** Pipe organ
-* **41.** Nyckelharpa (viola)
-* **65.** Saxophone (alto)
+* **38.** Synth bass (Synth bass 1)
+* **41.** Nyckelharpa (Viola)
+* **65.** Saxophone (Alto saxophone)
 * **68.** Oboe
-* **73.** Dizi (flute)
+* **73.** Dizi (Flute)
 * **80.** Square wave
 * **81.** Sawtooth wave
-* **92.** Erhu (bowed pad)
-* **107.** Guzheng (koto)
+* **92.** Erhu (Bowed pad)
+* **107.** Guzheng (Koto)
 
 Caveats
 -------
