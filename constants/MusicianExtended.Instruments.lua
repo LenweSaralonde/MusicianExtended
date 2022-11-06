@@ -232,3 +232,149 @@ if Musician.INSTRUMENTS["synth_bass"] == nil then
 	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "bass_guitar" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
 	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "synth_bass")
 end
+
+if Musician.INSTRUMENTS["electronic_drumkit"] == nil then
+	Musician.INSTRUMENTS["electronic_drumkit"] = {
+		decay = 100,
+		regions = {
+			{
+				path = "Interface\\AddOns\\Musician\\instruments\\drumkit",
+				loKey = 12,
+				hiKey = 34,
+			},
+			{
+				path = "Interface\\AddOns\\MusicianExtended\\instruments\\electronic-drumkit",
+				loKey = 35,
+				hiKey = 57,
+			},
+			{
+				path = "Interface\\AddOns\\Musician\\instruments\\drumkit",
+				loKey = 58,
+				hiKey = 58,
+			},
+			{
+				path = "Interface\\AddOns\\MusicianExtended\\instruments\\electronic-drumkit",
+				loKey = 59,
+				hiKey = 59,
+			},
+			{
+				path = "Interface\\AddOns\\Musician\\instruments\\drumkit",
+				loKey = 60,
+				hiKey = 61,
+			},
+			{
+				path = "Interface\\AddOns\\MusicianExtended\\instruments\\electronic-drumkit",
+				loKey = 62,
+				hiKey = 64,
+			},
+			{
+				path = "Interface\\AddOns\\Musician\\instruments\\drumkit",
+				loKey = 65,
+				hiKey = 69,
+			},
+			{
+				path = "Interface\\AddOns\\MusicianExtended\\instruments\\electronic-drumkit",
+				loKey = 70,
+				hiKey = 70,
+			},
+			{
+				path = "Interface\\AddOns\\Musician\\instruments\\drumkit",
+				loKey = 71,
+				hiKey = 74,
+			},
+			{
+				path = "Interface\\AddOns\\MusicianExtended\\instruments\\electronic-drumkit",
+				loKey = 75,
+				hiKey = 75,
+			},
+			{
+				path = "Interface\\AddOns\\Musician\\instruments\\drumkit",
+				loKey = 76,
+				hiKey = 108,
+			},
+		},
+		decayByKey = {
+			[27] = 35,
+			[28] = 211,
+			[29] = 130,
+			[30] = 125,
+			[31] = 141,
+			[32] = 2,
+			[33] = 63,
+			[34] = 1000,
+
+			[35] = 246,
+			[36] = 147,
+			[37] = 156,
+			[38] = 348,
+			[39] = 417,
+			[40] = 248,
+			[41] = 596,
+			[42] = 195,
+			[43] = 647,
+			[44] = 395,
+			[45] = 443,
+			[46] = 578,
+			[47] = 446,
+			[48] = 446,
+			[49] = 1000,
+			[50] = 470,
+			[51] = 688,
+			[52] = 610,
+			[53] = 997,
+			[54] = 150,
+			[55] = 546,
+			[56] = 547,
+			[57] = 1000,
+
+			[58] = 1000,
+
+			[59] = 646,
+
+			[60] = 238,
+			[61] = 134,
+
+			[62] = 247,
+			[63] = 278,
+			[64] = 510,
+
+			[65] = 1000,
+			[66] = 1000,
+			[67] = 603,
+			[68] = 894,
+			[69] = 114,
+
+			[70] = 52,
+
+			[71] = 486,
+			[72] = 505,
+			[73] = 143,
+			[74] = 276,
+
+			[75] = 97,
+
+			[76] = 108,
+			[77] = 145,
+			[78] = 156,
+			[79] = 169,
+			[80] = 89,
+			[81] = 1000,
+			[82] = 60,
+			[83] = 1000,
+			[84] = 1000,
+			[85] = 128,
+			[86] = 248,
+			[87] = 1000,
+		},
+		isPercussion = false,
+		isPlucked = true,
+		midi = 153, -- TR808Kit
+		color = { 0.77 / 1.5, 0.12 / 1.5, 0.23 / 1.5 },
+		source = "Roland TR-909"
+	}
+
+	-- Insert the electronic drum kit after the standard drum kit
+	local i = 1
+	while Musician.INSTRUMENTS_AVAILABLE[i] ~= "drumkit" and i <= #Musician.INSTRUMENTS_AVAILABLE do i = i + 1 end
+	table.insert(Musician.INSTRUMENTS_AVAILABLE, i + 1, "electronic_drumkit")
+end

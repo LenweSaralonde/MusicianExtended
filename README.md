@@ -13,6 +13,7 @@ This plugin adds more instruments to [Musician](https://github.com/LenweSaralond
 * Sawtooth wave (*Oberheim OB-Xa*)
 * Square wave (*Oberheim OB-Xa*)
 * Synth bass (*Yamaha DX7*)
+* Electronic drum kit (*Roland TR-909*)
 * Marimba
 * Tubular bells
 
@@ -26,6 +27,7 @@ MIDI mapping
 ------------
 The instruments are mapped to the following MIDI programs:
 
+### Melodic
 * **12.** Marimba
 * **14.** Tubular bells
 * **18.** Tonewheel organ (Rock organ)
@@ -39,6 +41,9 @@ The instruments are mapped to the following MIDI programs:
 * **81.** Sawtooth wave
 * **92.** Erhu (Bowed pad)
 * **107.** Guzheng (Koto)
+
+### Percussive
+* **25.** Electronic drum kit (TR-808)
 
 Caveats
 -------
