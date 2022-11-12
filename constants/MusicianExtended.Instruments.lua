@@ -149,7 +149,7 @@ end
 if Musician.INSTRUMENTS["electric_organ"] == nil then
 	Musician.INSTRUMENTS["electric_organ"] = {
 		path = "Interface\\AddOns\\MusicianExtended\\instruments\\electric-organ",
-		decay = 25,
+		decay = 40,
 		isPercussion = false,
 		midi = 18, -- RockOrgan
 		loop = { 4, 5 },
