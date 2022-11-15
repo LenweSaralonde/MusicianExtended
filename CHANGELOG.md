@@ -1,6 +1,13 @@
 Changelog
 =========
 
+v1.0.0
+------
+* First stable release.
+* Mapped orchestra hit to tubular bells.
+* Adjusted levels for electric organ, electronic drumkit, oboe, synth bass and tubular bells.
+* TOC bump for WoW patch 10.0.2.
+
 v0.6.0
 ------
 * Added synth bass.
