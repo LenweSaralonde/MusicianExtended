@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v1.0.1
+------
+* TOC bump for WoW patch 10.0.5.
+* TOC bump for WoW Classic patch 3.4.1.
+
 v1.0.0
 ------
 * First stable release.
