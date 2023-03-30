@@ -6,6 +6,8 @@ MusicianExtended = LibStub("AceAddon-3.0"):NewAddon("MusicianExtended")
 local MODULE_NAME = "Extended"
 Musician.AddModule(MODULE_NAME)
 
+local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
+
 --- OnInitialize
 --
 function MusicianExtended:OnInitialize()

@@ -57,6 +57,11 @@ stds.wow = {
 				"After"
 			}
 		},
+		C_AddOns = {
+			fields = {
+				"GetAddOnMetadata",
+			}
+		},
 
 		-- Global Constants
 	},
