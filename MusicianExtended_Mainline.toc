@@ -1,7 +1,7 @@
 ## Interface: 100107
 ## Title: Musician: Extended
 ## Author: LenweSaralonde
-## Version: 1.0.5
+## Version: 1.0.6
 ## IconTexture: Interface\Icons\inv_offhand_1h_ardenweald_d_01.blp
 ## RequiredDeps: Musician
 ## DefaultState: Enabled
