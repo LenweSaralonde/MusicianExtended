@@ -1,4 +1,4 @@
-## Interface: 100205
+## Interface: 100206
 ## Title: Musician: Extended
 ## Author: LenweSaralonde
 ## Version: 1.0.8
