@@ -1,0 +1,28 @@
+## Interface: 20505
+## Title: Musician: Extended
+## Author: LenweSaralonde
+## Version: 1.2.2
+## RequiredDeps: Musician
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Notes: Additional instrument pack for Musician
+## Category-enUS: Roleplay
+## Category-deDE: Rollenspiel
+## Category-esES: Juego de rol
+## Category-esMX: Juego de rol
+## Category-frFR: Jeu de rôle
+## Category-itIT: Gioco di Ruolo
+## Category-koKR: 롤플레잉
+## Category-ptBR: Interpretação de Papel
+## Category-ruRU: Ролевая игра
+## Category-zhCN: 角色扮演
+## Category-zhTW: 角色扮演
+## Group: Musician
+
+core\MusicianExtended.lua
+
+constants\MusicianExtended.Constants.lua
+constants\MusicianExtended.Instruments.lua
+constants\MusicianExtended.MidiMapping.lua
+
+locale\locale.xml
