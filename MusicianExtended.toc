@@ -19,6 +19,8 @@
 ## Category-zhCN: 角色扮演
 ## Category-zhTW: 角色扮演
 ## Group: Musician
+## X-Curse-Project-ID: 678841
+## X-Wago-ID: R4N2RVNL
 
 core\MusicianExtended.lua
 
