@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.6.0
+------
+* Updated for Musician 1.9.18.0.
+
 v1.5.0
 ------
 * Remade dropdowns using the standard API.
